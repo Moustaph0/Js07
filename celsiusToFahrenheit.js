@@ -2,11 +2,13 @@
 
 function celsiusToFahrenheit(celsius) 
 {
-  let cTemp = celsius;
-  let Fahrenheit = (cTemp * 1.8) + 32;
-    console.log(Fahrenheit);
+  let Temp = celsius;
+  let FahrenheitF = (Temp * 1.8) + 32;
+    return FahrenheitF;
 }
 
-celsiusToFahrenheit(30);
+
+let Fahrenheit = celsiusToFahrenheit(30);
+Console.log(Fahrenheit);
 
 module.exports = celsiusToFahrenheit;
