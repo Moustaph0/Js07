@@ -9,6 +9,6 @@ function celsiusToFahrenheit(celsius)
 
 
 let Fahrenheit = celsiusToFahrenheit(30);
-Console.log(Fahrenheit);
+console.log(Fahrenheit);
 
 module.exports = celsiusToFahrenheit;
