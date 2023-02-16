@@ -1,9 +1,11 @@
 
 function squarePerimeter(longueur) {
-    const data = { perimeter: longueur*4, aria: longueur*longueur}
+    let square = { perimeter: longueur*4, aria: longueur*longueur}
     
-    console.log(data.perimeter);
-    console.log(data.aria);
+    console.log("perimeter :", square.perimeter);
+    console.log("area :", square.aria);
 }
 
 squarePerimeter(6);
+
+module.exports = squarePerimeter;
