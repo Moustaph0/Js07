@@ -1,10 +1,12 @@
 
-const p = "ceci est une phrase";
+let p = "ceci est une phrase";
 
 function replaceString (chaine, motExist, motRemplac)
 {
     console.log(chaine.replace(motExist, motRemplac));
 }
 
-replaceString(p, 'est', 'etait');
+replaceString(p, 'est', 'etais');
+
+module.exports = replaceString;
 
