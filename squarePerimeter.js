@@ -1,11 +1,11 @@
 
 function squarePerimeter(longueur) {
-    let square = { perimeter: longueur*4, aria: longueur*longueur}
+    let squareF = { perimeter: longueur*4, aria: longueur*longueur}
     
-    console.log("perimeter :", square.perimeter);
-    console.log("area :", square.aria);
+   return squareF;
 }
-
-squarePerimeter(6);
+let square = squarePerimeter(4);
+console.log("perimeter :", square.perimeter);
+console.log("area :", square.area);
 
 module.exports = squarePerimeter;
